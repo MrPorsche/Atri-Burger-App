@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', 'Courier New', Courier, monospace;
+}
+
+.root {
+    width: 81%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 25px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    font-size: 22px;
+    color: #5c5b5a;
+    font-weight: 1000;
+    text-decoration: none;
+}
+
+button {
+    border-width: 1px;
+    border-radius: 50px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 0 10px 0;
+}
+
+.btn1, .btn4 {
+    background-color: white;
+    color: black;
+    border-color: #bfbdbd;
+}
+
+.btn2, .btn3 {
+    background-color: #ff7729;
+    color: white;
+    border-color: #ff7729;
+}
+
+.logo, button {
+    cursor: pointer;
+}
+
+.banner {
+    display: inline-flex;
+    border: 1px solid black;
+}
+
+.banner-box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 100px 0 0 150px;
+    border: 1px solid red;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+span {
+    color: #ff7729;
+}
+
+p {
+    color: #5c5b5a;
+    font-size: 18px;
+    font-weight: 1000;
+    width: 100%;
+}
+
+.btns2 {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.banner-img {
+    width: 40%;
+    background-color: #ff7729;
+}
+
+.img {
+    width: 200px;
+    border-radius: 50px;
+    padding: 40px;
+}
+  
+  .midground, .foreground {
+    margin: 10vh 0 0 15vw;
+    border: 1px solid black;
+  }
+
+  .banner-img {
+    width: 35vw;
+    height: 59vh;
+  }
+
+  .midground {
+    background-color: hsla(225, 100%, 25%, 0.4);
+    width: 35vw;
+    height: 59vh;
+  }
+
+  .foreground {
+    background-color: hsla(325, 50%, 50%, 0.6);
+    width: 35vw;
+    height: 59vh;
+  }
