@@ -5,18 +5,20 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'DM Sans', 'Courier New', Courier, monospace;
+    /* border: 1px solid #5c5b5a; */
 }
 
-.root {
-    width: 81%;
+.header {
+    width: 80%;
     margin: 0 auto;
+    display: flex;
+    margin-top: 25px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin-top: 25px;
 }
 
 nav ul li {
@@ -26,19 +28,14 @@ nav ul li {
 }
 
 nav ul li a {
-    font-size: 22px;
+    font-size: 18px;
     color: #5c5b5a;
     font-weight: 1000;
     text-decoration: none;
 }
 
-button {
-    border-width: 1px;
-    border-radius: 50px;
-    width: 120px;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 10px 0 10px 0;
+.btns1 {
+    margin-left: 235px;
 }
 
 .btn1, .btn4 {
@@ -53,22 +50,31 @@ button {
     border-color: #ff7729;
 }
 
+button {
+    border-width: 1px;
+    border-radius: 50px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
 .logo, button {
     cursor: pointer;
 }
 
 .banner {
     display: inline-flex;
-    border: 1px solid black;
+    margin-top: 25px;
 }
 
-.banner-box {
-    width: 50%;
+.banner-content {
+    width: 655px;
+    margin: 100px 0 0 150px;
     display: flex;
     flex-direction: column;
     row-gap: 30px;
-    padding: 100px 0 0 150px;
-    border: 1px solid red;
+    /* padding: 100px 0 0 150px; */
 }
 
 h1 {
@@ -85,46 +91,25 @@ span {
 p {
     color: #5c5b5a;
     font-size: 18px;
-    font-weight: 1000;
+    font-weight: 500;
     width: 100%;
 }
 
-.btns2 {
-    width: 20%;
-    display: flex;
-    justify-content: space-between;
-    column-gap: 30px;
-}
-
 .banner-img {
-    width: 40%;
+    display: flex;
     background-color: #ff7729;
+    margin-left: 234px;
 }
 
-.img {
-    width: 200px;
+.banner-img img {
+    width: 480px;
     border-radius: 50px;
     padding: 40px;
+    position: relative;
+    right: 200px;
 }
-  
-  .midground, .foreground {
-    margin: 10vh 0 0 15vw;
-    border: 1px solid black;
-  }
 
-  .banner-img {
-    width: 35vw;
-    height: 59vh;
-  }
-
-  .midground {
-    background-color: hsla(225, 100%, 25%, 0.4);
-    width: 35vw;
-    height: 59vh;
-  }
-
-  .foreground {
-    background-color: hsla(325, 50%, 50%, 0.6);
-    width: 35vw;
-    height: 59vh;
-  }
+.apps {
+    margin-top: 75px;
+    text-align: center;
+}
